@@ -1,5 +1,7 @@
-import urllib.request
-import re
+import sys
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
-page_number =1
-title _
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
